@@ -11,8 +11,7 @@ _A brief overview of what the project is and why it matters._
 - Terminal (for command line operations)
 
 ## Steps Taken
-_Breakdown of your process in order. Each step should say what you did and why._
-1. Installed OpenSCAP and SCAP Security Guide using dnf (to enable NIST scanning)
+1. Installed OpenSCAP and SCAP Security Guide using dnf (to enable NIST scanning): sudo dnf install openscap-scanner scap-security-guide
 2. Ran a compliance scan with the NIST 800-53 moderate profile
 3. Reviewed the HTML report and identified top 3-5 failing controls
 4. Remediated issues (e.g., hardened SSH, set password policy, enabled firewall)
