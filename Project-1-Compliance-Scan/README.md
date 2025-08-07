@@ -6,9 +6,9 @@ _A brief overview of what the project is and why it matters._
 > This project demonstrates how to assess and remediate compliance gaps on a Linux system using OpenSCAP and the NIST 800-53 security controls framework. The goal is to show practical experience in continuous monitoring, risk reduction, and audit readiness.
 
 ## Tools & Environment
-_List your OS, tools, and versions. This helps with reproducibility and clarity._
 - OS: Red Hat Enterprise Linux 9.6 (VM)
-- Tools: OpenSCAP, SCAP Security Guide, Terminal
+- Tools: OpenSCAP, SCAP Security Guide,
+- Terminal (for command line operations)
 
 ## Steps Taken
 _Breakdown of your process in order. Each step should say what you did and why._
@@ -43,3 +43,4 @@ _Reflect on what you gained, challenges you hit, and how this is used in GRC wor
 
 ## Appendix
 _Add any raw scan reports, configs, or resources you used. Optional, but shows depth!_
+
