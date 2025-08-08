@@ -34,31 +34,31 @@ The lab workflow followed a structured approach to scanning, analysis, remediati
 
 1. Preparation:
 
-- Set up a Red Hat Enterprise Linux 9 (RHEL 9) virtual machine for testing.
+  - Set up a Red Hat Enterprise Linux 9 (RHEL 9) virtual machine for testing.
 
-- Updated the system to ensure all software was current.
+  - Updated the system to ensure all software was current.
 
-- Installed required packages: OpenSCAP scanner and SCAP Security Guide.
+  - Installed required packages: OpenSCAP scanner and SCAP Security Guide.
 
 2. Initial Compliance Scan:
 
-- Conducted a baseline scan using OpenSCAP with the NIST 800-53 profile.
+  - Conducted a baseline scan using OpenSCAP with the NIST 800-53 profile.
 
-- Reviewed results to identify failed rules and noncompliant configurations.
+  - Reviewed results to identify failed rules and noncompliant configurations.
 
 3. Remediation:
 
-Prioritized findings based on severity (high, medium, low).
+  - Prioritized findings based on severity (high, medium, low).
 
-- Applied fixes for selected high-priority issues, including enabling FIPS mode and installing missing tools.
+  - Applied fixes for selected high-priority issues, including enabling FIPS mode and installing missing tools.
 
-- Rebooted the system as necessary to apply changes.
+  - Rebooted the system as necessary to apply changes.
 
 4. Verification:
 
-- Reran the OpenSCAP scan to confirm remediation efforts.
+  - Reran the OpenSCAP scan to confirm remediation efforts.
 
-- Compared initial and final results to demonstrate improved compliance.
+  - Compared initial and final results to demonstrate improved compliance.
 
 
 ## Findings and Remediation
@@ -103,25 +103,25 @@ Moving forward, I plan to automate portions of the remediation process and to ex
 
 Below are selected screenshots representing key steps and evidence from the compliance project workflow. Additional images are available in the /screenshots/ folder.
 
-- openscap-scanner_install.png — OpenSCAP scanner installed successfully.
+  - openscap-scanner_install.png — OpenSCAP scanner installed successfully.
 
-- openscap-scanner-results_compliance-and-scoring.png — Initial compliance scan scoring and summary.
+  - openscap-scanner-results_compliance-and-scoring.png — Initial compliance scan scoring and summary.
 
-- openscap-scanner-results_pass-fail.png — Pass/fail breakdown of scan results.
+  - openscap-scanner-results_pass-fail.png — Pass/fail breakdown of scan results.
 
-- audit-partition-lsblk-output.png — Disk layout verification using lsblk.
+  - audit-partition-lsblk-output.png — Disk layout verification using lsblk.
 
-- crypto-policies-config.png — System cryptography policy set to FIPS.
+  - crypto-policies-config.png — System cryptography policy set to FIPS.
 
-- fips-enabled-status.png — Confirming FIPS mode is enabled.
+  - fips-enabled-status.png — Confirming FIPS mode is enabled.
 
-- kernel-boot-fips-check.png — Verifying FIPS parameter in kernel boot config.
+  - kernel-boot-fips-check.png — Verifying FIPS parameter in kernel boot config.
 
-- dracut-fips-regenerate-output.png — Output from regenerating initramfs for FIPS.
+  - dracut-fips-regenerate-output.png — Output from regenerating initramfs for FIPS.
 
-- openscap-scan-2-summary.png — Post-remediation scan summary and scoring.
+  - openscap-scan-2-summary.png — Post-remediation scan summary and scoring.
 
-- openscap-scan-2-rule-overview.png — Rule-by-rule overview of final scan.
+  - openscap-scan-2-rule-overview.png — Rule-by-rule overview of final scan.
 
 For a full chronological set of screenshots, please see the /screenshots/ folder in this repository.
 
