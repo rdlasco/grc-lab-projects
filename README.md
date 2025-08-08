@@ -31,7 +31,6 @@ The lab workflow followed a structured approach to scanning, analysis, remediati
 
 
 ## Methodology
-
 1. Preparation:
 
   - Set up a Red Hat Enterprise Linux 9 (RHEL 9) virtual machine for testing.
