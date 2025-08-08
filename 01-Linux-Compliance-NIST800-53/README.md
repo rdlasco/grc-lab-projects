@@ -1,5 +1,8 @@
 # Linux Compliance Scan & Remediation – NIST 800-53
 
+A hands-on compliance lab demonstrating how to assess and remediate a Linux system against the NIST 800-53 security controls framework.
+
+
 ## Executive Summary
 
 This lab demonstrates a real-world compliance scan using the OpenSCAP security tool on a Red Hat-based system. The objective was to identify, analyze, and remediate key vulnerabilities based on the NIST 800-53 compliance framework.
