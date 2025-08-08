@@ -48,7 +48,7 @@ The lab workflow followed a structured approach to scanning, analysis, remediati
 
 3. Remediation:
 
-Prioritized findings based on severity (high, medium, low).
+- Prioritized findings based on severity (high, medium, low).
 
 - Applied fixes for selected high-priority issues, including enabling FIPS mode and installing missing tools.
 
